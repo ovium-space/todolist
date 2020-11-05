@@ -20,7 +20,7 @@ export default function Calendar() {
       <div className="body">
         <div className="day-names">
           {
-            ["SUN", "MOM", "TUE", "WED", "THU", "FRI", "SUN"].map((d) => (
+            ["SUN", "MOM", "TUE", "WED", "THU", "FRI", "SAT"].map((d) => (
             <div className="week">{d}</div>
             ))
           }
