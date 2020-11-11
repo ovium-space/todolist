@@ -1,14 +1,11 @@
 import React, { useState, useEffect } from "react";
-import moment from "moment";
 import "./style.css";
-
 import buildCalendar from "./build";
 import dayStyles, {beforeToday} from "./style";
 import Header from "./header";
 
-export default function Calendar() {
+export default function Calendar({ value, setValue }) {
   const [calendar, setCalendar] = useState([]);
-  const [value, setValue] = useState(moment());
 
   useEffect(() => {
     setCalendar(buildCalendar(value));
