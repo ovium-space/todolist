@@ -36,7 +36,7 @@ function CardFeed(props) {
             <div>
                 <ul>
                     {
-                        isExpired.map(element => checkfinish(element))
+                        isExpired.map((element) => checkfinish(element))
                     }
                 </ul>
             </div>

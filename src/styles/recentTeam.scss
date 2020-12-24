@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.body {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: rgba(59, 157, 228, 0.05);
+  border-radius: 5px;
+  text-align: center;
+  max-width: 15%;
+}
+
+.feed {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 0 1rem 1rem 1rem;
+}
+
+.title{
+    padding-top: 1rem;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.team-box{
+    margin: 10%;
+    padding: 20%;
+    max-width: 90%;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10%;
+}
+
+.m-0{
+    margin-block-start: 0;
+}
+
+.team-name{
+    font-size: 20px;
+}

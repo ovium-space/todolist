@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import TodoFeed from './assets/todoFeed';
+// import TodoFeed from './assets/todoFeed';
+import RecentTeams from './assets/recentTeams';
 // import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -9,7 +10,8 @@ ReactDOM.render(
   // <React.StrictMode>
   //   <App />
   // </React.StrictMode>
-  <TodoFeed/>,
+  // <TodoFeed/>
+  <RecentTeams />,
   document.getElementById('root')
 );
 
