@@ -16,13 +16,13 @@ function CardFeed(props) {
 
     function checkfinish(data) {
         if (data.status === "expired") {
-            return <li className='expired'>{data.name}</li>;
+            return <li className='expired'><p className='text-white'>{data.name}</p></li>;
 
         } else if (data.status === "completed") {
-            return <li className='completed'>{data.name}</li>;
+            return <li className='completed'><p className='text-white'>{data.name}</p></li>;
 
         } else if (data.status === "running") {
-            return <li className='running'>{data.name}</li>;
+            return <li className='running'><p className='text-white'>{data.name}</p></li>;
         }
     }
     
@@ -34,7 +34,7 @@ function CardFeed(props) {
                 <p className='m-0 date'>{d.getDate()}</p>
             </div>
             <div>
-                <ul className="round">
+                <ul>
                     {
                         isExpired.map(element => checkfinish(element))
                     }
