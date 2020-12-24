@@ -1,0 +1,15 @@
+import './style/todolist_modal.css';
+
+function TodoListModal() {
+    return (  
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>Some text in the Modal..</p>
+        </div>
+     </div>
+
+    );
+  }
+
+export default TodoListModal;
