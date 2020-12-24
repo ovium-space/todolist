@@ -1,15 +1,18 @@
+// (-------------------default file set up---------------
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import './index.css';
-// import App from './App';
-// import Teambar from './controller/allteam';
-// import Recent from './controller/recent';
-// import userList from './controller/homeList';
-// import TodoFeed from './assets/todoFeed';
-import RecentTeams from './assets/recentTeams';
-// import './index.css';
-// import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import App from './App';
+// import './index.css';
+// {default file set up}
+// )
+
+// -------------------All controller--------------------
+import Teambar from './assets/allteam';
+// import TodoFeed from './assets/todoFeed';
+// import RecentTeams from './assets/recentTeams';
+
+
  
 ReactDOM.render(
   //     <Teambar />
@@ -17,7 +20,8 @@ ReactDOM.render(
   //   <App />
   // </React.StrictMode>
   // <TodoFeed/>
-  <RecentTeams />,
+  // <RecentTeams />
+  <Teambar />,
   document.getElementById('root')
 );
 

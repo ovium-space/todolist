@@ -1,7 +1,7 @@
 import '../styles/recentTeam.scss';
 
 function RecentTeams(props) {
-    let teamdata = ['team1', 'team2', 'team3'] //อย่าส่งมาเกิน 3 ทีมล่ะ
+    let teamdata = ['team1', 'team2', 'team3'] //อย่าส่งมาเกิน 3
 
     return (
         <div>
