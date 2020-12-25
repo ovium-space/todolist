@@ -35,7 +35,7 @@ function TodoFeed() {
     return (
         <div className='todofeed-body'>
             <p className='todofeed-title m-start-0 m-end-0'>User's To Do List</p>
-            <div className='feed'>
+            <div className='todofeed'>
                 <div className='card-m-auto c-2'>
                     <CardFeed nowday={new Date(year, month, day-2).getTime()} todoStatus={todolist1} />
                 </div>
