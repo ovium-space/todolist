@@ -33,22 +33,22 @@ function TodoFeed() {
     ];
 
     return (
-        <div className='body'>
-            <p className='title m-0'>User's To Do List</p>
+        <div className='todofeed-body'>
+            <p className='todofeed-title m-start-0 m-end-0'>User's To Do List</p>
             <div className='feed'>
-                <div className='m c-2'>
+                <div className='card-m-auto c-2'>
                     <CardFeed nowday={new Date(year, month, day-2).getTime()} todoStatus={todolist1} />
                 </div>
-                <div className='m c-1'>
+                <div className='card-m-auto c-1'>
                     <CardFeed nowday={new Date(year, month, day-1).getTime()} todoStatus={todolist2} />
                 </div>
-                <div className='m'>
+                <div className='card-m-auto'>
                     <CardFeed nowday={new Date(year, month, day).getTime()} todoStatus={todolist2} />
                 </div>
-                <div className='m c-1'>
+                <div className='card-m-auto c-1'>
                     <CardFeed nowday={new Date(year, month, day+1).getTime()} todoStatus={todolist1} />
                 </div>
-                <div className='m c-2'>
+                <div className='card-m-auto c-2'>
                     <CardFeed nowday={new Date(year, month, day+2).getTime()} todoStatus={todolist2} />
                 </div>    
             </div>

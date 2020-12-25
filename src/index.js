@@ -8,20 +8,12 @@ import reportWebVitals from './reportWebVitals';
 // )
 
 // -------------------All controller--------------------
-import Teambar from './assets/allteam';
-// import TodoFeed from './assets/todoFeed';
-// import RecentTeams from './assets/recentTeams';
-
-
+import Homepage from './pages/Homepage';
  
 ReactDOM.render(
-  //     <Teambar />
-  // <React.StrictMode>
-  //   <App />
-  // </React.StrictMode>
-  // <TodoFeed/>
-  // <RecentTeams />
-  <Teambar />,
+  <React.StrictMode>
+    <Homepage />
+  </React.StrictMode>,
   document.getElementById('root')
 );
 

@@ -28,10 +28,10 @@ function CardFeed(props) {
     
     return(
         <div>
-            <p className='m-0 date'>{day[d.getDay()]}</p>
+            <p className='m-start-0 m-end-0 todocard-date'>{day[d.getDay()]}</p>
             <div className="number">
-                <p className='m-0 ordinal'>{ordinal}</p>
-                <p className='m-0 date'>{d.getDate()}</p>
+                <p className='m-start-0 m-end-0 ordinal'>{ordinal}</p>
+                <p className='m-start-0 m-end-0 todocard-date'>{d.getDate()}</p>
             </div>
             <div>
                 <ul>

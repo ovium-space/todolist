@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-.body {
+.todofeed-body {
     background: rgba(59, 164, 241, 0.5);
     font-family: "Roboto", sans-serif;
     color: white;
@@ -29,7 +29,7 @@ ul {
     }
 }
 
-.title {
+.todofeed-title {
     font-size: 3rem;
     padding-top: 1rem;
     padding-left: 1rem;
@@ -56,16 +56,15 @@ ul {
     padding-top: 4rem;
 }
 
-.m {
+.card-m-auto {
     margin: 0 auto auto auto;
 }
 
-.m-0 {
-    margin-block-start: 0;
+.m-end-0 {
     margin-block-end: 0;
 }
 
-.date {
+.todocard-date {
     font-weight: 500;
     font-size: 1.5rem;
 }

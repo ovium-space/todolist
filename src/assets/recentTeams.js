@@ -5,13 +5,13 @@ function RecentTeams(props) {
 
     return (
         <div>
-            <div className="body">
-                <p className="title m-0">Recent Teams</p>
-                <div className="feed m-0">
+            <div className="recent-body">
+                <p className="recent-team-title m-start-0">Recent Teams</p>
+                <div className="recent-team-feed m-start-0">
                     {
                         teamdata.map((data) => {
                             return (
-                                <div className="team-box m-0">
+                                <div className="recent-team-box m-start-0">
                                     <p className="team-name">{data}</p>
                                 </div>
                             )
