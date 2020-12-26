@@ -3,7 +3,7 @@ import leftbutton from "./picture/leftarrow.png";
 import rightbutton from "./picture/rightarrow.png";
 
 function Teambar(props) {
-  let teams = ["Team1", null, null, null, null]; //อย่าส่งมาเกิน 5 ทีมล่ะ
+  let teams = ["Team1", "Team2", "Team3", "Team4", "Team5"]; //อย่าส่งมาเกิน 5 ทีมล่ะ
   let sorter = ["Name", "Start Date", "Deadline"];
 
   return (
@@ -27,8 +27,8 @@ function Teambar(props) {
         </div>
         {teams.map((element) => {
           return (
-            <div className="teambar-box">
-              <label>{element}</label>
+            <div className='teambar-box'>
+                <p>{element}</p>
             </div>
           );
         })}

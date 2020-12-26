@@ -9,31 +9,43 @@
   text-align: center;
 }
 
-.recent-team-feed{
+.recent-team-feed {
   display: grid;
   grid-template-columns: auto;
   padding: 0 1rem 1rem 1rem;
 }
 
-.recent-team-title{
-    padding-top: 1rem;
-    font-size: 24px;
-    font-weight: normal;
+.recent-team-title {
+  padding-top: 1rem;
+  font-size: 24px;
+  font-weight: normal;
 }
 
-.recent-team-box{
-    margin: 10%;
-    padding: 20%;
-    max-width: 90%;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 10%;
+.recent-team-box {
+  cursor: pointer;
+  margin: 10%;
+  padding: 20%;
+  max-width: 90%;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10%;
 }
 
-.m-start-0{
-    margin-block-start: 0;
+.recent-team-box:hover {
+  p:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s;
+  }
+  transform: scale(1.1);
+  transition: transform 0.2s;
+  background-color: hsl(207, 82%, 90%);
 }
 
-.team-name{
-    font-size: 20px;
+.m-start-0 {
+  margin-block-start: 0;
+}
+
+.team-name {
+  cursor: pointer;
+  font-size: 20px;
 }
