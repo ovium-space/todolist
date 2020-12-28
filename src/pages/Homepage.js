@@ -4,7 +4,6 @@ import Teambar from '../assets/allteam'
 import '../styles/Home.scss'
 
 function Homepage() {
-    
     return(
         <div className="homepage-body">
             <div className="homepage-middle">

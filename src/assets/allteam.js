@@ -10,6 +10,7 @@ function getTeam(team){
   console.log(team)
 }
 
+
   return (
     <div className="teambar-body">
       <div className="row">
