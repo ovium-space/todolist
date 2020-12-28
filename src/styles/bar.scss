@@ -17,6 +17,9 @@
     transform: scale(1.2);
     transition: transform 0.2s;
   }
+  img{
+    cursor: pointer;
+  }
   background-color: transparent;
   height: 20vh;
   margin-top: 6vh;

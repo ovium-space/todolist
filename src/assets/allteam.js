@@ -6,6 +6,10 @@ function Teambar(props) {
   let teams = ["Team1", "Team2", "Team3", "Team4", "Team5"]; //อย่าส่งมาเกิน 5 ทีมล่ะ
   let sorter = ["Name", "Start Date", "Deadline"];
 
+  function getTeam(team) {
+    console.log(team)
+  }
+
   return (
     <div className="teambar-body">
       <label className="teambar-title">All Teams</label>
@@ -27,7 +31,7 @@ function Teambar(props) {
         </div>
         {teams.map((element) => {
           return (
-            <div className='teambar-box'>
+            <div onClick={getTeam(element)} className='teambar-box'>
                 <p>{element}</p>
             </div>
           );
