@@ -25,6 +25,14 @@ function TodoListModal2() {
                         <span className="checkbox-rec">Checklist</span>
                     </label>
                     </div>
+                </div>
+                <div className="col">
+                    <p className="deadline">Deadline : 00:00 AM</p>
+                </div>
+            </div>
+
+            <div className="row p-05">
+                <div className="col">
                     <div class="checkbox">
                     <label>
                         <input type="checkbox" />
@@ -35,7 +43,6 @@ function TodoListModal2() {
                 <div className="col">
                     <p className="deadline">Deadline : 00:00 AM</p>
                 </div>
-
             </div>
 
             <div className="row">
