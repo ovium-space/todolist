@@ -6,9 +6,14 @@ function Teambar(props) {
   let teams = ["Team1", "Team2", "Team3", "Team4", "Team5"]; //อย่าส่งมาเกิน 5 ทีมล่ะ
   let sorter = ["Name", "Start Date", "Deadline"];
 
+function getTeam(team){
+  console.log(team)
+}
+
   return (
     <div className="teambar-body">
-      <label className="teambar-title">All Teams</label>
+      <div className="row">
+        <label className="teambar-title">All Teams</label>
       <div className="sorted-selector">
         <select name="sorter">
           <option value="none" selected disabled hidden>Sort By</option>
@@ -21,13 +26,15 @@ function Teambar(props) {
           }
         </select>
       </div>
+      </div>
+      
       <div className="flex-container">
         <div className="fleft button">
           <img src={leftbutton} alt="Previous" />
         </div>
         {teams.map((element) => {
           return (
-            <div className='teambar-box'>
+            <div onClick={getTeam(element)} className='teambar-box'>
                 <p>{element}</p>
             </div>
           );

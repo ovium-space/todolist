@@ -1,7 +1,7 @@
 import '../styles/todoFeed.scss';
 import CardFeed from './todoFeedCard';
 
-function TodoFeed() {
+function TodoFeed(props) {
     let d = new Date();
     let year = d.getFullYear();
     let month = d.getMonth();
