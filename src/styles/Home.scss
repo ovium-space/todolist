@@ -1,26 +1,26 @@
-    .homepage-body {
-        margin: 2%;
-    }
-    
-    .homepage-middle {
-        display: grid;
-        grid-template-columns: 85% 15%;
-        margin-bottom: 2%;
-    }
-    
-    .homepage-todofeed {
-        padding: 1%;
-        margin-right: 2%;
-        border-radius: 5px;
-        background: rgba(59, 157, 228, 0.05);
-        transition: transform .2s;
-    }
-    
-    .homepage-todofeed:hover {
-        cursor: pointer;
-        transform: scale(1.03);
-    }
+.homepage-body {
+  margin: 2%;
+}
 
-    .Linker {
-        text-Decoration: none;
-    }
+.homepage-middle {
+  display: grid;
+  grid-template-columns: 85% 15%;
+  margin-bottom: 2%;
+}
+
+.homepage-todofeed {
+  padding: 1%;
+  margin-right: 2%;
+  border-radius: 5px;
+  background: rgba(59, 157, 228, 0.05);
+  transition: transform 0.2s;
+}
+
+.homepage-todofeed:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.Linker {
+  text-decoration: none;
+}
