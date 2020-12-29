@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import moment from "moment";
-import "../App.css"
+import "./calendarStyle.css"
 import buildCalendar from "./build";
 
 
@@ -60,9 +60,6 @@ export default function Calendar() {
 
   return (
     <div className="card">
-
-    
-    
     <div className="calendar">
       <div className="header">
         
