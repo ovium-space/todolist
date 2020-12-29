@@ -1,12 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Calendar from "./calendar/calendar.js";
+// import Calendar from "./calendar/calendar.js";
 import reportWebVitals from './reportWebVitals';
+// import Navbar from './component/navbar';
+// import TodoListBar from './component/todolist_bar';
+// import TodoListModal from './component/todolist_modal';
+import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Calendar />
+    {/* <Navbar/> 
+    <TodoListBar/> */}
+    {/* <Calendar /> */}
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
