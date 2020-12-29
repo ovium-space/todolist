@@ -9,12 +9,19 @@ function TodoListCard() {
             <div className="p-05">
                 <p className="des">Description...</p>
                 <form className="p-05 pt-0 font-15">
-                  <input type="checkbox" />
-                <label> Checklist</label><br/>
-                <input type="checkbox"/>
-                <label> Checklist</label><br/>
-                <input type="checkbox" />
-                <label> Checklist</label> <br/>
+                  <div class="checkbox">
+                    <label>
+                        <input type="checkbox" />
+                        <span className="text-checklist-card">Checklist</span>
+                    </label>
+                    </div>
+                    <div class="checkbox">
+                    <label>
+                        <input type="checkbox" />
+                        <span className="text-checklist-card">Checklist</span>
+                    </label>
+                    </div>
+                    
                 </form>
             </div>
         </div>

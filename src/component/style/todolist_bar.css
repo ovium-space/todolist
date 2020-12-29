@@ -16,12 +16,22 @@
     display: inline;
 }
 
-.btn {
+.btn-bar {
     margin-right: 0.5rem;
     float: right;
     display: inline;
     margin-top: 0.5rem;
-    height: 2rem;
-    width: 2rem;
+    height: 3rem;
+    width: 3rem;
     cursor: pointer;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.btn-bar:focus {
+    border-radius: 25px;
+}
+
+.text-btn-cir {
+    font-size: 2rem;
 }

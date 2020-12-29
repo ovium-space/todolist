@@ -4,6 +4,7 @@
     border: 1px solid #000;
     margin: 0.5rem 0rem;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .mt-2 {
@@ -51,4 +52,10 @@ h3 {
 
 .font-15 {
     font-size: 1.1rem;
+}
+
+.text-checklist-card {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-left: 5%;
 }

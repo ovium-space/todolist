@@ -7,9 +7,9 @@ import TodoListModal from './component/todolist_modal';
 function App() {
   return (
     <div>
-      {/* <Navbar/> 
-      <TodoListBar/> */}
-      <TodoListModal/>
+      <Navbar/> 
+      <TodoListBar/>
+      {/* <TodoListModal/> */}
     </div>
       
   );

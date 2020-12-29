@@ -2,6 +2,8 @@ import './style/todolist_modal.css';
 
 function TodoListModal2() {
     return ( 
+        <div className="moral">
+        
         <div className="box-container">
             <div className="row">
                 <div className="col">
@@ -57,6 +59,7 @@ function TodoListModal2() {
             </div>
             
             
+        </div>
         </div>
 
     )
