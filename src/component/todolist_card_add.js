@@ -1,7 +1,8 @@
 import './style/todolist_card_add.css';
 import React from 'react';
 
-function TodoListCardAdd() {
+function TodoListCardAdd(props) {
+
     return (  
     <div className="mt-2">
         <div className="box-add">
@@ -16,7 +17,6 @@ function TodoListCardAdd() {
                         <span className="text-checklist-card">Checklist</span>
                     </label>
                     </div>
-                    
                 </form>
             </div>
         </div>

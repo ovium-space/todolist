@@ -53,28 +53,52 @@
         display: flex;
     }
     
+    .trans{
+        transition: transform .2s;
+    }
+
     .calendar .header .previousMonth {
+        cursor: pointer;
         flex: 1;
         text-align: left;
         margin-left: 1rem;
+    }
+
+    .calendar .header .previousMonth:hover {
+        transform: scale(1.3);
     }
     
     .calendar .header .nextMonth {
+        cursor: pointer;
         flex: 1;
         text-align: right;
         margin-right: 1rem;
     }
+
+    .calendar .header .nextMonth:hover {
+        transform: scale(1.3);
+    }
     
     .calendar .header .previousYear {
+        cursor: pointer;
         flex: 1;
         text-align: left;
         margin-left: 1rem;
     }
+
+    .calendar .header .previousYear:hover {
+        transform: scale(1.3);
+    }
     
     .calendar .header .nextYear {
+        cursor: pointer;
         flex: 1;
         text-align: right;
         margin-right: 1rem;
+    }
+
+    .calendar .header .nextYear:hover {
+        transform: scale(1.3);
     }
     
     .calendar .week {
@@ -93,11 +117,12 @@
     }
     
     .calendar .day {
+        cursor: pointer;
         position: relative;
         width: calc(100%/7);
         height: 100px;
         display: inline-block;
-        background-color: #fff;
+        background-color: #ffffff;
         border: 1px solid #373737;
         padding: 0;
         margin: 0;
@@ -114,39 +139,37 @@
         z-index: 100;
         line-height: 44px;
     }
+
+    .calendar .day:hover {
+        background-color: hsl(56, 91%, 78%);
+    }
     
     .calendar .day div.before {
         color: #C8C8C8;
     }
     
-    .calendar .day div.selected {
-        width: 100%;
-        height: 100%;
-        /* opacity: 0.75; */
-        outline: 5px solid #F37676;
-        font-weight: bold;
-        outline-offset: -5px;
-    }
-    
-    .calendar .day div.today {
+    /* .calendar .day div.today {
         background-color: #3b9de4;
         width: 100%;
         height: 100%;
         opacity: 0.75;
         color: #5c5c5c;
-        background-color: #cccccc;
         width: 100%;
         height: 100%;
-    }
+    } */
     
     .calendar .day div.selected {
-        outline: 5px solid #F37676;
-        outline-offset: -0.35em;
+        outline: 4px solid #F37676;
+        outline-offset: -0.2em;
         width: 100%;
         height: 100%;
         opacity: 0.75;
         color: #2e2e2e;
         font-weight: bold;
+    }
+
+    .calendar .day div.selected:hover{
+        outline: none;
     }
     
     .calendar .day div.today {
@@ -158,6 +181,11 @@
         opacity: 0.75;
         font-weight: bold;
     }
+
+    .calendar .day div.today:hover{
+        background-color: hsl(56, 91%, 78%);
+        color: #2e2e2e;
+    }
     
     .calendar .day div.notSameMonth {
         color: #2e2e2e;
@@ -165,6 +193,10 @@
         width: 100%;
         height: 100%;
         opacity: 0.75;
+    }
+
+    .calendar .day div.notSameMonth:hover{
+        background-color: hsl(56, 91%, 78%);
     }
     
     .calendar .day div.sameMonth {

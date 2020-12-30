@@ -76,25 +76,25 @@ export default function Calendar() {
       <div className="header">
         
         <div 
-          className="previousMonth" 
+          className="previousMonth trans" 
           onClick={() => setValue(prevMonth())}>
             {String.fromCharCode(60)}
         </div>
         <div className="current">{currMonthName()}</div>
         <div 
-          className="nextMonth"
+          className="nextMonth trans"
           onClick={() => setValue(nextMonth())}>
             {String.fromCharCode(62)}
         </div>
 
         <div 
-          className="previousYear" 
+          className="previousYear trans" 
           onClick={() => setValue(prevYear())}>
             {String.fromCharCode(60)}
         </div>
         <div className="current">{currYear()}</div>
         <div 
-          className="nextYear"
+          className="nextYear trans"
           onClick={() => setValue(nextYear())}>
             {String.fromCharCode(62)}
         </div>
@@ -119,7 +119,6 @@ export default function Calendar() {
                   
                 >
                   {day.format("D").toString()}
-                  {console.log(day)}
                 </div>
               </div>
             ))}

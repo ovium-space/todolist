@@ -1,7 +1,7 @@
 import './style/todolist_modal.css';
 import React from 'react';
 
-function TodoListModal2() {
+function TodoListModal() {
     return ( 
         <div className="moral">
         
@@ -18,7 +18,6 @@ function TodoListModal2() {
                     <h3 className="time-modal">17 Oct. 2020</h3>
                 </div>
             </div>
-            
             
             <div className="row p-05">
                 <div className="col">
@@ -62,8 +61,7 @@ function TodoListModal2() {
             
         </div>
         </div>
-
     )
   }
 
-export default TodoListModal2;
+export default TodoListModal;
