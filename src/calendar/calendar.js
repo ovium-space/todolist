@@ -19,6 +19,10 @@ export default function Calendar() {
     return value.isSame(day, "day")
   }
 
+  function isSelectedMonth(day){
+    return value.isSame(day, "month")
+  }
+
   /*
   function beforeToday(day){
     return day.isBefore(new Date(), "day")
@@ -30,16 +34,16 @@ export default function Calendar() {
   }
 
   function isSameMonth(day){
-    return day.isSame(new Date(), "month")
+    return value.isSame(day, "month")
   }
 
   function dayStyles(day){
-    
     if (isSelected(day)) return "selected"
     if(isToday(day)) return "today"
-    if(isSameMonth(day) === false) return "notSameMonth"
-    if(isSameMonth(day)) return "sameMonth"
+    if(!isSameMonth(day)&&(!isSelectedMonth(day))) return "notSameMonth"
+    //if(isSelectedMonth(day)) return "sameMonth"
     return ""
+    
   }
 
   function currMonthName(){
@@ -115,6 +119,7 @@ export default function Calendar() {
                   
                 >
                   {day.format("D").toString()}
+                  {console.log(day)}
                 </div>
               </div>
             ))}
