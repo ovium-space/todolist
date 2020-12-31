@@ -40,15 +40,15 @@ function TodoListCard(props) {
   return (
     <div className="mt-2">
       <div className="box">
-        {todoList.map((todo) => (
-          <div>
+        {todoList.map((todo, index) => (
+          <div key={index}>
             <h3 className="title-todo">{todo.name}</h3>
             <h3 className="time-todo">{todo.expire_datetime}</h3>
             <div className="p-05">
               <p className="des">{todo.description}</p>
               <form className="p-05 pt-0 font-15">
-                {todo.checklists.map((checklist) => (
-                  <div className="checkbox">
+                {todo.checklists.map((checklist, index) => (
+                  <div key={index} className="checkbox">
                     <label>
                       <input type="checkbox" />
                       <span className="text-checklist-card">
