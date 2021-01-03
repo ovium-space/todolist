@@ -38,10 +38,10 @@ export default function Calendar() {
   }
 
   function dayStyles(day){
+    if((isSelected(day))&&(isToday(day))) return "selected-today"
     if (isSelected(day)) return "selected"
     if(isToday(day)) return "today"
     if(!isSameMonth(day)&&(!isSelectedMonth(day))) return "notSameMonth"
-    //if(isSelectedMonth(day)) return "sameMonth"
     return ""
     
   }
