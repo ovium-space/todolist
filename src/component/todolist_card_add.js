@@ -10,7 +10,7 @@ function TodoListCardAdd(props) {
         <div className="p-05">
           <p className="des-add">Description...</p>
           <form className="p-05 pt-0 font-15">
-            <div class="checkbox">
+            <div className="checkbox">
               <label>
                 <input type="checkbox" />
                 <span className="text-checklist-card">Checklist</span>

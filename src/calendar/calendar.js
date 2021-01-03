@@ -71,7 +71,7 @@ export default function Calendar() {
   }
 
   return (
-    <div className="card">
+    <div className="calendar-card">
     <div className="calendar">
       <div className="header">
         
