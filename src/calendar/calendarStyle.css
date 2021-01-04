@@ -227,4 +227,17 @@
         align-items: center;
     }
 
+    .lateIcon{
+        color: red;
+    }
+
+    .nearlyIcon{
+        color: yellow;
+
+    }
+
+    .finishIcon{
+        color: green;
+    }
+
     

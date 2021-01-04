@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react";
 import moment from "moment";
 import "./calendarStyle.css"
 import buildCalendar from "./build";
+import { VscCircleFilled } from "react-icons/vsc";
 
 
 export default function Calendar() {
@@ -100,6 +101,8 @@ export default function Calendar() {
         </div>
       </div>
 
+      <h3>{value.format("MMMM Do YYYY")}</h3>
+
       <div className="day-name">
           {dayName.map((d) => (
               <div className="week">{d}</div>
@@ -107,23 +110,30 @@ export default function Calendar() {
       </div>
 
       <div className="body">
-
+      
         {calendar.map((week) => (
           <div>
             {week.map((day) => (
               <div className="day"
                 onClick={() => setValue(day)}
               >
+                
                 <div
                   className={dayStyles(day)}
                   
                 >
-                  {day.format("D").toString()}
+                  
+                  {day.format("D").toString()}<br></br>
+                  <VscCircleFilled className="lateIcon" />
+                  <VscCircleFilled className="nearlyIcon" />
+                  <VscCircleFilled className="finishIcon" />
                 </div>
               </div>
             ))}
           </div>
         ))}
+
+        
       </div>
     </div>
     </div>
