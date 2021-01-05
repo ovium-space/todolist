@@ -1,0 +1,12 @@
+body {
+    background: linear-gradient(to right bottom, #648880, #293f50);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.box-login {
+    background: white;
+    width: 30vw;
+    height: 70vh;
+    border-radius: 8px;
+}
