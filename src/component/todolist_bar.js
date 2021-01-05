@@ -5,13 +5,15 @@ import TodoListCardAdd from "./todolist_card_add";
 import React, { useState, useEffect } from "react";
 import Test from "./test";
 
-{/* <Button variant="primary" onClick={() => setModalShow(true)}>
+{
+  /* <Button variant="primary" onClick={() => setModalShow(true)}>
 Launch vertically centered modal
-</Button> */}
+</Button> */
+}
 
 function TodoListBar() {
   const [todolist, setlist] = useState([]);
-  const [modalShow, setModalShow] = useState(true);
+  const [modalShow, setModalShow] = useState(false);
 
   const components = todolist.map((todo, index) => {
     return <TodoListCard key={index} />;
@@ -19,19 +21,19 @@ function TodoListBar() {
 
   function addTodo(event) {
     let newtodo = {
-      "title" : "name",
-      "desciption" : "des_name",
-      "checklist" : [
+      title: "name",
+      desciption: "des_name",
+      checklist: [
         {
-        "name" : "checklist1",
-        "value" : false
+          name: "checklist1",
+          value: false,
         },
         {
-          "name" : "checklist2",
-          "value" : true
-        }
-      ]
-    }
+          name: "checklist2",
+          value: true,
+        },
+      ],
+    };
 
     setlist([...todolist, newtodo]);
     console.log(todolist);
@@ -41,15 +43,16 @@ function TodoListBar() {
     <>
       <div className="paper">
         <h1 className="todo">TO DO LIST</h1>
-        <button onClick={addTodo} className="btn-bar">
+        <button
+          onClick={() => setModalShow(true)}
+          // onClick={() => addTodo()}
+          className="btn-bar"
+        >
           <span className="text-btn-cir">+</span>
         </button>
-          {components}
+        {components}
       </div>
-      <Test
-          show={modalShow}
-          onHide={() => setModalShow(false)}
-        />
+      <Test show={modalShow} onHide={() => setModalShow(false)} />
     </>
   );
 }
