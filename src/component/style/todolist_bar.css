@@ -19,12 +19,14 @@
 .btn-bar {
     margin-right: 0.5rem;
     float: right;
-    display: inline;
     height: 3rem;
     width: 3rem;
     cursor: pointer;
     background-color: white;
     border-radius: 25px;
+    padding: 0px 0px;
+    font-size: 18px;
+    line-height: 1.33;
 }
 
 .btn-bar:focus {
