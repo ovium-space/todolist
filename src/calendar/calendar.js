@@ -43,7 +43,7 @@ export default function Calendar() {
     if (isSelected(day)) return "selected"
     if(isToday(day)) return "today"
     if(!isSameMonth(day)&&(!isSelectedMonth(day))) return "notSameMonth"
-    return ""
+    return "sameMonth"
     
   }
 
@@ -101,7 +101,7 @@ export default function Calendar() {
         </div>
       </div>
 
-      <h3>{value.format("MMMM Do YYYY")}</h3>
+      {/* <h3 className="day-show">{value.format("MMMM Do YYYY")}</h3> */}
 
       <div className="day-name">
           {dayName.map((d) => (
