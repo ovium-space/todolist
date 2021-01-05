@@ -16,16 +16,14 @@
 
 .displayImg {
     background: #BDBDBD;
-    border-radius: 50%;
-    height: 0;
-    padding-top: 0.5rem;
-    padding-bottom: 2rem;
-    width: 2.5rem;
-    margin-top: 0.75rem;
-    margin-right: 1.5rem;
-    float: right;
-    color: white;
-    font-size: 1.25rem;
-    text-align: center;
-    font-weight: 470;
+    width: 50px;
+    height: 50px;
+    padding: 13px 13px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 25px;
+}
+
+.span-title {
+    font-size: 2em;
 }
