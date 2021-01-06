@@ -9,10 +9,17 @@ import reportWebVitals from "./reportWebVitals";
 
 // -------------------All controller--------------------
 import Homepage from "./pages/Homepage";
+// import Navbar from './component/navbar';
+// import TodoListBar from './component/todolist_bar';
+// import TodoListModal from './component/todolist_modal';
+import App from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Homepage />
+    {/* <Navbar/> 
+    <TodoListBar/> */}
+    {/* <Calendar /> */}
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
