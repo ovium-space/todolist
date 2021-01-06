@@ -9,7 +9,7 @@ function TodoListModal() {
           <div className="col">
             <h1 className="title-modal">Title</h1>
             <p className="description">Description...</p>
-        </div>
+          </div>
           <div className="col">
             <h3 className="time-modal">00:00 AM</h3>
             <h3 className="time-modal">17 Oct. 2020</h3>

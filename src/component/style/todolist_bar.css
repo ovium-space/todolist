@@ -1,39 +1,39 @@
 .paper {
-    background-color: white;
-    border-radius: 3px;
-    width: 30vw;
-    min-height: 70vh;
-    max-height: fit-content;
-    float: right;
-    box-shadow: 0px 6px 10px -2px #adadad;
-    margin: 1.5rem;
-    padding: 1.5rem 1rem;
+  background-color: white;
+  border-radius: 3px;
+  width: 30vw;
+  min-height: 70vh;
+  max-height: fit-content;
+  float: right;
+  box-shadow: 0px 6px 10px -2px #adadad;
+  margin: 1.5rem;
+  padding: 1.5rem 1rem;
 }
 
 .todo {
-    font-size: 2.25rem;
-    margin-left: 0.5rem;
-    text-shadow: 1px 1px 6px #adadad;
-    display: inline;
+  font-size: 2.25rem;
+  margin-left: 0.5rem;
+  text-shadow: 1px 1px 6px #adadad;
+  display: inline;
 }
 
 .btn-bar {
-    margin-right: 0.5rem;
-    float: right;
-    height: 3rem;
-    width: 3rem;
-    cursor: pointer;
-    background-color: white;
-    border-radius: 25px;
-    padding: 0px 0px;
-    font-size: 18px;
-    line-height: 1.33;
+  margin-right: 0.5rem;
+  float: right;
+  height: 3rem;
+  width: 3rem;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 25px;
+  padding: 0px 0px;
+  font-size: 18px;
+  line-height: 1.33;
 }
 
 .btn-bar:focus {
-    border-radius: 25px;
+  border-radius: 25px;
 }
 
 .text-btn-cir {
-    font-size: 2rem;
+  font-size: 2rem;
 }

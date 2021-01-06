@@ -1,6 +1,6 @@
 import "./style/todolist_card.css";
 import React from "react";
-import checklistLogo from './check.png';
+import checklistLogo from "./check.png";
 
 function TodoListCard(props) {
   let todoList = [
@@ -60,21 +60,24 @@ function TodoListCard(props) {
                       value={checklist.checklist_index}
                       id={checklist.checklist_ID}
                     />*/}
-                    <label class="form-check-label ml-2" for={checklist.checklist_ID}>
+                    <label
+                      class="form-check-label ml-2"
+                      for={checklist.checklist_ID}
+                    >
                       Default checkbox
                     </label>
-                    <label class="form-check-label ml-5" for={checklist.checklist_ID}>
+                    <label
+                      class="form-check-label ml-5"
+                      for={checklist.checklist_ID}
+                    >
                       22.22 AM
                       {checklist.expire_datetime}
                     </label>
                   </div>
-
                 ))}
               </div>
               <img src={checklistLogo} className="checklistLogo ml-5" />
-              <label class="form-check-label ml-1">
-                1/10
-              </label>
+              <label class="form-check-label ml-1">1/10</label>
             </div>
           </form>
         ))}

@@ -10,7 +10,11 @@ function Test(props) {
         <div class="form-check m-3">
           <div className="row">
             <div className="col-5">
-              <input id={checker.name} class="form-check-input" type="checkbox"/>
+              <input
+                id={checker.name}
+                class="form-check-input"
+                type="checkbox"
+              />
               <input
                 id={checker.name}
                 className="form-control form-control-sm ml-2"
@@ -23,18 +27,16 @@ function Test(props) {
             <div className="col-7">
               <div className="row">
                 <label for="time-picker" className="col-3">
-                  Deadline : 
+                  Deadline :
                 </label>
-              
-                  <input
-                    id="time-picker"
-                    className="form-control col-4 input-grey"
-                    type="datetime-local"
-                    id="input-grey"
-                  />
+
+                <input
+                  id="time-picker"
+                  className="form-control col-4 input-grey"
+                  type="datetime-local"
+                  id="input-grey"
+                />
               </div>
-            
-                
             </div>
           </div>
         </div>
@@ -70,22 +72,21 @@ function Test(props) {
                   id="input-grey"
                 />
               </div>
-             
+
               <div className="col-5">
                 <div className="row">
                   <label for="time-picker" className="col-4">
-                  Expired
-                </label>
-                <div className="col-8">
-                  <input
-                    id="time-picker"
-                    class="form-control"
-                    type="datetime-local"
-                    id="input-grey"
-                  />
+                    Expired
+                  </label>
+                  <div className="col-8">
+                    <input
+                      id="time-picker"
+                      class="form-control"
+                      type="datetime-local"
+                      id="input-grey"
+                    />
+                  </div>
                 </div>
-                </div>
-                
               </div>
             </div>
             <div className="form-group row">

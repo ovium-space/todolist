@@ -1,29 +1,29 @@
 .navbar {
-    height: 4rem;
-    width: 100%;
-    background-color: #3B9DE4;
-    color: white;
-    box-shadow: 1px 1px 10px #808080;
+  height: 4rem;
+  width: 100%;
+  background-color: #3b9de4;
+  color: white;
+  box-shadow: 1px 1px 10px #808080;
 }
 
 .title {
-    float: left;
-    font-weight: 480;
-    font-size: 2.25rem;
-    padding: 0.25rem 1.5rem;
-    margin: auto;
+  float: left;
+  font-weight: 480;
+  font-size: 2.25rem;
+  padding: 0.25rem 1.5rem;
+  margin: auto;
 }
 
 .displayImg {
-    background: #BDBDBD;
-    width: 50px;
-    height: 50px;
-    padding: 13px 13px;
-    font-size: 18px;
-    line-height: 1.33;
-    border-radius: 25px;
+  background: #bdbdbd;
+  width: 50px;
+  height: 50px;
+  padding: 13px 13px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
 }
 
 .span-title {
-    font-size: 2em;
+  font-size: 2em;
 }
