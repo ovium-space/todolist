@@ -1,0 +1,47 @@
+.box {
+  height: auto;
+  width: 100%;
+  border: 3px solid #000;
+  margin-block: 1rem;
+  border-radius: 10px;
+}
+
+.title-todo {
+  font-weight: 500;
+  margin-top: 0.5rem;
+  margin-bottom: 0rem;
+  padding: 0.2rem 0.75rem;
+  padding-bottom: 0rem;
+  display: inline-block;
+}
+
+.time-todo {
+  font-weight: 500;
+  margin-top: 0.5rem;
+  margin-bottom: 0rem;
+  padding: 0.2rem 0.75rem;
+  padding-bottom: 0rem;
+  float: right;
+  display: inline;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+.des {
+  color: #797979;
+  margin-top: 0.8rem;
+  padding: 0rem 0.75rem;
+  padding-bottom: 0rem;
+  font-size: 0.9rem;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.checklistLogo {
+  width: 3%;
+  margin: 2%;
+}

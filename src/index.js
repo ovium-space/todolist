@@ -1,24 +1,22 @@
-// (-------------------default file set up---------------
+
+import reportWebVitals from "./reportWebVitals";
+// -------------------default file set up---------------
 import React from "react";
 import ReactDOM from "react-dom";
 import reportWebVitals from "./reportWebVitals";
-// import App from './App';
-// import './index.css';
+import App from './App';
+import './index.css';
 // {default file set up}
-// )
 
 // -------------------All controller--------------------
 import Homepage from "./pages/Homepage";
+// import Calendar from "./calendar/calendar.js";
 // import Navbar from './component/navbar';
 // import TodoListBar from './component/todolist_bar';
 // import TodoListModal from './component/todolist_modal';
-import App from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <Navbar/> 
-    <TodoListBar/> */}
-    {/* <Calendar /> */}
     <App />
   </React.StrictMode>,
   document.getElementById("root")

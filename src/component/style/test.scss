@@ -1,0 +1,44 @@
+// #time-picker{
+//     padding-left: 15em;
+// }
+.form-group {
+  label {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+}
+
+#add-checklist-button {
+  width: 10em;
+}
+
+#input-grey {
+  border: none;
+  background-color: #e9e9e9;
+}
+
+#input-grey:focus {
+  border: 1px solid#808080;
+  background-color: #f9f9f9;
+  box-shadow: none;
+}
+
+.btn-add-checklist {
+  margin-left: auto;
+  margin-right: auto;
+  height: 35px;
+  width: 15%;
+  border-radius: 10px;
+  background-color: #dfdfdf;
+}
+
+.input-grey {
+  border: none;
+  background-color: #e9e9e9;
+}
+
+.input-grey:focus {
+  border: 1px solid#808080;
+  background-color: #f9f9f9;
+  box-shadow: none;
+}

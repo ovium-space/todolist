@@ -1,0 +1,59 @@
+.box-add {
+  height: auto;
+  width: 100%;
+  border: 2px dashed #797979;
+  margin: 0.5rem 0rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.title-todo-add {
+  font-weight: 500;
+  margin-top: 0.5rem;
+  margin-bottom: 0rem;
+  padding: 0.2rem 0.75rem;
+  padding-bottom: 0rem;
+  display: inline-block;
+  background: #f0f0f0;
+}
+
+.time-todo-add {
+  font-weight: 500;
+  margin-top: 0.5rem;
+  margin-bottom: 0rem;
+  padding: 0.2rem 0.75rem;
+  padding-bottom: 0rem;
+  float: right;
+  display: inline;
+  background: #f0f0f0;
+}
+
+.des-add {
+  color: #797979;
+  margin-top: 0.8rem;
+  padding: 0.2rem 0.75rem;
+  font-size: 0.9rem;
+  background: #f0f0f0;
+  width: 60%;
+}
+
+.text-checklist-card {
+  width: 60%;
+}
+
+.grid-checklist {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-bottom: 1vh;
+}
+
+.btn-add-submit {
+  height: 2.2rem;
+  width: 2.2rem;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 25px;
+  margin-left: 93%;
+  margin-bottom: 1%;
+  font-size: 110%;
+}
