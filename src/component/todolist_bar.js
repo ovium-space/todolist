@@ -1,7 +1,5 @@
 import "./style/todolist_bar.css";
 import TodoListCard from "./todolist_card";
-import TodoListModal from "./todolist_modal";
-import TodoListCardAdd from "./todolist_card_add";
 import React, { useState, useEffect } from "react";
 import Test from "./test";
 
